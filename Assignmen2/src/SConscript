@@ -1,4 +1,4 @@
-Import('*')
+AImport('*')
 SimObject('MysimObject.py', sim_objects=['VectorOperations'])
 Source('VectorOperations.cc')
 DebugFlag('VECTOR')   
